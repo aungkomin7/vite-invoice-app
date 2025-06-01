@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap");
+
+@import url("../node_modules/sweetalert2/dist/sweetalert2.css");
+
+@import "tailwindcss";
+
+/* Preline UI */
+@import "../node_modules/preline/variants.css";
+
+/* Plugins */
+@plugin "@tailwindcss/forms";
+
+@theme {
+  --font-sans: "Ubuntu Sans", sans-serif;
+}
